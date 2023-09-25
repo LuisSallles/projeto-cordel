@@ -8,7 +8,7 @@
 }
 
 .container-main {
-    height: 100vh;
+    overflow: hidden;
 }
 
 .header-content {
@@ -50,5 +50,11 @@
 .container-second-article {
     display: flex;
     flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 

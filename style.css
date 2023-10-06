@@ -7,6 +7,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+html, body {
+    min-height: 100vh;
+}
 
 .container-main {
     overflow: hidden;
@@ -19,6 +22,7 @@
     background-color: black;
     color: aliceblue;
     font-family: passion one, Helvetica, sans-serif;
+    font-variant: small-caps;
     gap: 13px;
     padding: 55px;
     height: 240px;
@@ -34,14 +38,21 @@
     font-weight: 200;
 }
 
+.content-title-two:hover {
+    text-decoration: underline;
+}
+
 .container-article {
     display: flex;
     flex-direction: column;
     font-family: Sriracha, cursive, Helvetica, sans-serif;
     font-size: 29px;
     font-weight: 400;
+    line-height: 2em;
     margin: 22px;
     padding-top: 60px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .article {
